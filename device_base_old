@@ -1,0 +1,116 @@
+
+var array1080_1920 = [
+
+    ["Samsung Galaxy A5", "SM-A500F", "SM-A500G"],
+    ["Samsung Galaxy A5 (2017)", "sm-a520F"],
+    ["Samsung Galaxy A5 Duos", "SM-A500H"],
+    ["Samsung Galaxy A5 2016 Duos", "SM-A510M"],
+    ["Xiaomi Redmi Note 4", "HM NOTE 1LTE", "2013122", "Xiaomi_2013122_TD", "Redmi Note 4", "HM NOTE 1LTETD", "Note 1LTE"],
+    ["Xiaomi Redmi Premium Edition", "2013022", "2014501", "HM 1S"],
+    ["Xiaomi Redmi Note 3", "Redmi Note 3"],
+    ["Samsung Galaxy A7", "SM-A700FD"],
+    ["Samsung Galaxy A7 (2016)", "sm-A710F", "sm-a7009", "sm-a7108"],
+    ["Samsung Galaxy A7 (2017)", "sm-a720F"],
+    ["Xiaomi Mi 5", "Mi 5"],
+    ["Huawei Honor 8", "FRD-L09"],
+    ["Xiaomi Mi 6", "MI 6"]
+    ["Huawei Honor 8 Youth Edition", "FRD-L09", "DUK-L09", "PRA-AL00", "FRD-L19"],
+    ["Samsung Galaxy S5", "SM-G900A", "SM-G900F", "SM-G900H", "SM-G900R4", "SM-G900R6", "SM-G900R7", "SM-G900T", "SM-G901F", "SM-G906L"],
+    ["Xiaomi Mi 5s", "MI 5s"]
+    ["Meizu M3 Note", "m3 note"],
+    ["Huawei P10 Lite", "WAS-TL10"],
+    ["Xiaomi Redmi 3", "Redmi 3"],
+    ["Samsung Galaxy S4", "I9506", "GT-I9508", "GT-I9507", "GT-I9500", "GT-I9505", "GT-I9507", "GT-I9295", "SHV-E470S", "GT-1313", "SCH-R970", "SGH-M919V", "SPH-L720", "SCH-I545", "i545", "SC-04E", "SGH-I337", "R970", "GT-I9502", "SGH-M919N", "SHV-E300"],
+    ["Huawei Honor 5C", "NEM-L21", "NEM-L22", "NEM-UL10"],
+    ["LeEco Le 2 X527", "Le X527"],
+    ["Huawei Honor 6X", "BLN-L24"],
+    ["Huawei P9 Lite", "VNS-L31", "VNS-L23", "VNS-L21"],
+    ["Samsung Galaxy Note 3", "SM-N9005", "SM-N900P", "SM-N900S", "SM-N900T", "SCL22", "SC-01F"],
+    ["Huawei P10 Premium Edition", "VTR-L09"],
+    ["Meizu M5s Note", "M5S", "MZ-M5s Note"],
+    ["Xiaomi Mi Max", "Mi Max"],
+    ["Huawei Nova", "CAN-L11"],
+    ["OnePlus 5", "A5000"],
+    ["OnePlus 3", "A3000"],
+    ["ASUS ZenFone 2", "ZE551ML"],
+    ["Lenovo Vibe Shot", "Z90a40"],
+    ["Meizu Pro 6", "MZ-PRO 6", "PRO 6"],
+    ["Sony Xperia Z3", "D6653", "SOL26", "D6653", "D6603", "Z3"],
+    ["Huawei Honor 5X", "KIW-TL00H"],
+    ["Sony Xperia Z2", "SGP512"],
+    ["Sony Xperia X", "F5121"],
+    ["ZTE Blade V7", "Blade V7"],
+    ["Lenovo Vibe S1", "S1a40"],
+
+];
+
+var array720_1280 = [
+
+    ["Samsung Galaxy A3 (2016)", "SM-A310"],
+    ["Samsung Galaxy A3 (2017)", "SM-A320FL"],
+    ["Xiaomi Redmi 4", "Redmi 4"],
+    ["Samsung Galaxy J5", "SM-G500H"],
+    ["Samsung Galaxy J5 (2016)", "SM-G5108", "SM-G510FN"],
+    ["Samsung J5 2017", "SM-G530F"],
+    ["Samsung J5 Pro", "SM-G530G"],
+    ["Xiaomi Redmi 3S", "Redmi 3S"],
+    ["Samsung Galaxy J7 2015", "SM-J700F"],
+    ["Samsung Galaxy J7 2016", "SM-J710F"],
+    ["Samsung Galaxy J7 2017", "SM-S727VL"],
+    ["Xiaomi Redmi 4A", "Redmi 4A"],
+    ["Samsung Galaxy A3 2017", "SM-A320FL"],
+    ["Samsung Galaxy J3", "SM-J3109", "SM-J320A", "SM-J320F", "SM-J320G", "SM-J320H", "SM-J320M", "SM-J320MU", "SM-J320N0", "SM-J320V", "SM-J320VL", "SM-J320W8", "SM-J320Y", "SM-J320YZ", "SM-J320ZN", "SM-J326AZ", "SM-J327VPP", "SM-J330FN", "SM-J330G"],
+    ["Samsung Galaxy J5 Prime", "SM-G610F"],
+    ["Samsung Galaxy S III Neo", "SCH-I939I", "GT-I9301I", "GT-I9300I"],
+    ["Meizu M3S", "M3s"],
+    ["Meizu M5s", "M5S"],
+    ["ASUS ZenFone 2 Laser", "Z00ED", "Z00MD", "Z011DD", "Z011D"],
+    ["ASUS Zenfone Pegasus 3", "X003", "X008", "X008D"],
+    ["Huawei Honor 4C Pro", "TIT-L01"],
+    ["Huawei Honor 5A", "LYO-L21", "CAM-UL00"],
+    ["Meizu Meilan U10", "U10"],
+    ["LG X Power", "F750K"],
+    ["Samsung Galaxy S5 Mini", "SM-G800R4", "SM-G800F", "G900 Mini"],
+    ["Meizu M5", "MEIZU_M5", "M5"],
+    ["Sony Xperia XA1", "G3121"],
+    ["LG K10", "F670S", "M250", "K420", "k410"],
+    ["Sony Xperia Z3 Compact", "D5803", "D5833"],
+    ["Sony Xperia XA Dual", "F3116"],
+    ["Sony Xperia E5", "F3311"]
+
+];
+
+var array1440_2560_2960 = [
+
+    //1440_2560
+    ["Samsung Galaxy S6", "SM-G920W8", "SM-G920T1", "SM-G920A", "sm-g890A", "sm-scv31"],
+    ["Samsung Galaxy S7 Edge", "SM-G935F"],
+    ["Samsung Galaxy S7", "SM-G930F", "SM-G891A"],
+    ["Samsung Galaxy Note 4", "SM-N910V", "SM-N910U", "SM-N910R4", "SM-N910F", "SM-N910A"],
+    ["Samsung Galaxy Note 5", "SM-N920F"],
+
+    //1440_2960
+    ["Samsung Galaxy S8", "SM-G892A", "SM-G950U", "SM-G950F"],
+    ["Samsung Galaxy S8+ Duos", "SM-G955F", "SM-G955XC", "SM-G955U"],
+    ["Samsung Galaxy Note 8", "GT-N5110", "GT-N5105", "GT-N5120", "N5100"],
+    ["Samsung Galaxy S9", "SM-G960F", "SM-G960U"]
+
+
+
+];
+
+var array540_960 = [
+
+    ["Samsung Galaxy A3", "SM-A300F"],
+    ["Samsung Galaxy Grand Prime", "SM-G530F", "SM-G930H"],
+    ["Samsung Galaxy Grand Prime Plus", "SM-G532F"]
+
+];
+
+var array480_800 = [
+
+    ["Samsung Galaxy J1 (2016)", "SM-J120F"],
+    ["Samsung Galaxy J1", "SM-J100H"],
+    ["Samsung Galaxy J1 Ace", "SM-J110F"]
+
+];

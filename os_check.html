@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="sendClientInfoJson()">SEND</button>
+
+
+<p id="showUserAgent"></p>
+
+<script>
+
+
+function checkDateTime(){
+ 
+ var d = new Date();
+ 
+ var date = (d.getDate() < 10 ? '0' : '') + d.getDate();
+ var month = ((d.getMonth() + 1) < 10 ? '0' : '') + (d.getMonth() + 1);
+ 
+ var year = d.getFullYear().toString();
+ 
+ var hours = (d.getHours() < 10 ? '0' : '') + d.getHours();
+ var minutes = (d.getMinutes() < 10 ? '0' : '') + d.getMinutes();
+ 
+ var fullDate = date + "-" + month + "-" + year;
+ var fullTime =hours  + ":" + minutes;
+
+var timezone = d.getTimezoneOffset();
+ 
+console.log(fullTime);
+console.log(fullDate);
+console.log(timezone);
+
+}
+
+checkDateTime();
+
+function calcTime(city, offset) {
+
+// create Date object for current location
+var d = new Date();
+
+// convert to msec
+// add local time zone offset
+// get UTC time in msec
+var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+
+// create new Date object for different city
+// using supplied offset
+var nd = new Date(utc + (3600000*offset));
+
+// return time as a string
+return "The local time in " + city + " is " + nd.toLocaleString();
+
+console.log("The local time in " + city + " is " + nd.toLocaleString());
+
+}
+ 
+calcTime("Moscow", 180);
+
+
+
+var UTCstring = (new Date()).toUTCString();
+
+console.log('UTCstring', UTCstring);
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="valid-aviasales-ad">
+</head>
+<link rel="stylesheet" href="/static/Mercedes/css/style.css"/>
+<style>
+  body {
+    margin:0;
+    overflow: hidden;
+  }
+  .video_ads__block {
+    position: relative;
+    background-color: #fff;
+  }
+
+.video_ads__block video{
+  width: 100%;
+}
+
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+@font-face {
+    font-family: 'Daimler';
+	src: url('/static/Mercedes/css/DaimlerCA-Regular.ttf');
+}
+
+.main__block {
+    width: 310px;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    height: 120px;
+    bottom: 10px;
+    text-align: center;
+}
+
+.main__block p {
+    font-family: Daimler;
+    font-style: normal;
+    line-height: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 35px;
+    height: 25px;
+    width: 310px;
+    right: 155px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.main__block button {
+  background: #1daeec;
+  position: relative;
+    border-radius: 0px;
+    border: none;
+    font-family: Daimler;
+    font-style: normal;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 14px 57px 13px 37px;
+    margin-top: 2px;
+}
+
+.main__block button img {
+  position: absolute;
+  top: 16px;
+  right: 32px;
+  color: rgb(255, 255, 255);
+}
+
+#overlay.o {
+  background: none;
+}
+
+#overlay.o .main__block {
+    display: none;
+    background: none;
+}
+
+.hide_button__block {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 10px;
+  right: 12px;
+  z-index: 1000;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.repeat__button_block {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 10px;
+  left: 12px;
+  z-index: 1000;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.repeat__button_block img {
+  position: absolute;
+  top: 3px;
+  left: 6px;
+}
+
+.close__video_ads {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+
+</style>
+<body>
+  <div class="video_ads__block">
+    <div id="overlay">
+      <div class="hide_button__block" style="display: none;" id="hide__video_content">
+        <img class="close__video_ads" src="/static/Mercedes/img/close_video_ads.svg">
+      </div>
+
+      <div class="repeat__button_block" style="display: none" id="repeat__button_block">
+        <img class="repeat" src="/static/Mercedes/img/repeat.svg">
+      </div>
+      
+      <div id="main__block" class="main__block">
+          <p>Покори «Гору Легенд»<br>вместе&nbsp;с&nbsp;Mercedes-Benz G-Класс</p>
+          <button>
+            Посмотреть
+            <img src="/static/Mercedes/img/Polygon2.svg">
+          </button>
+      </div>
+    </div>
+    <video style="display: block;" poster="/static/Mercedes/img/image.png" playsinline id="video">
+      <source src="/static/Mercedes/css/video.mp4" type="video/mp4" />
+    </video>
+  </div>
+ 
+<script src="/static/shared/utils.js"></script>
+<script src="/static/shared/orientation.js"></script>
+<script src="/static/Mercedes/js/script.js"></script>
+</body>
+</html>
